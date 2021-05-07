@@ -1,0 +1,60 @@
+###Frontend###
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+forum-front/node_modules
+forum-front/.pnp
+forum-front/.pnp.js
+
+# testing
+forum-front/coverage
+
+# production
+forum-front/build
+
+# misc
+forum-front/.DS_Store
+forum-front/.env.local
+forum-front/.env.development.local
+forum-front/.env.test.local
+forum-front/.env.production.local
+
+forum-front/npm-debug.log*
+forum-front/yarn-debug.log*
+forum-front/yarn-error.log*
+
+###Backend###
+forum/HELP.md
+forum/target/
+forum/!.mvn/wrapper/maven-wrapper.jar
+forum/!**/src/main/**/target/
+forum/!**/src/test/**/target/
+
+### STS ###
+forum/.apt_generated
+forum/.classpath
+forum/.factorypath
+forum/.project
+forum/.settings
+forum/.springBeans
+forum/.sts4-cache
+
+### IntelliJ IDEA ###
+forum/.idea
+forum/*.iws
+forum/*.iml
+forum/*.ipr
+
+### NetBeans ###
+forum/nbproject/private/
+forum/nbbuild/
+forum/dist/
+forum/nbdist/
+forum/.nb-gradle/
+forum/build/
+forum/!**/src/main/**/build/
+forum/!**/src/test/**/build/
+
+### VS Code ###
+forum/.vscode/
+
